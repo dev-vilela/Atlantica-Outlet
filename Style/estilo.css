@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:ital,wght@0,200;0,400;1,200&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Grenze+Gotisch:wght@300&family=Poppins:ital,wght@0,200;0,400;1,200&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Grenze+Gotisch:wght@300&family=Poppins:ital,wght@0,200;0,400;1,200&family=Sedgwick+Ave+Display&family=ZCOOL+KuaiLe&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --bg-color:var(var(--bg-color)#1d2631)
+    --tex-color:#fff;
+    --main-color:#ccca41;
+    --other-color:#fcfcfc;
+    --h1-font:4rem;
+    --p-font:1rem;
+}
+
+body{
+    background-image: linear-gradient(to left, #4a185e, #083858f3);
+    color: #fff;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index:1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.logo i{
+    color: var(--main-color);
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.navegacao{
+    display: flex;
+}
+
+.navegacao a{
+    color: var(--other-color);
+    font-size: var(--p-font);
+    font-weight: 400;
+    margin: 0 30px;
+    transition: 0 .55s ease;
+}
+
+.navegacao a:hover{
+    color: var(--main-color);
+}
+
+.header-icon{
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    font-size: 26px;
+    color: var(--other-color);
+    z-index: 1001;
+    cursor: pointer;
+}
+
+.header-icon i{
+    margin-right: 25px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.header-icon i:hover{
+    transform: scaleY(-5px);
+    color: var(--main-color);
+}
+
+.section{
+    padding: 0 15%;
+}
+
+.home{
+    position: relative;
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    grid-template-columns: 2fr,1fr;
+    align-items: center;
+    gap: 1rem;
+}
+
+.text h1{
+    font-size: var(--h1-font);
+    font-family: 'Grenze Gotisch', cursive;
+    line-height: 1.3;
+    margin-bottom: 4px;
+}
+
+.text h5{
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #4ab49d;
+    letter-spacing: 2px;
+    
+}
+
+.text h3{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+
+.home-img{
+    max-width: 100%;
+    width: 50rem;
+    height: auto;
+    margin-left: 15%;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 70px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    transition: all .55s ease;
+}
+
+.btn:hover{
+    background: var(--other-color);
+    border: 2px solid var(--other-color);
+    color: #000;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.main li img{
+    width: 100px;
+    margin-top: 20px;
+    height: auto;
+    max-width: 100%;
+}
+
+.row{
+    background-color:#11482B ;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    padding-right: 10px;
+    justify-content: center;
+    transition: all .55s ease;
+    cursor: pointer;
+    display: inline-flex;
+}
+
+.row:hover{
+    transform: translateY(-8px);
+}
+
+.row2{
+    background-color:#2c0a03 ;
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    padding-right: 10px;
+    justify-content: center;
+    transition: all .55s ease;
+    cursor: pointer;
+    display: inline-flex;
+}
+
+.row2:hover{
+    transform: translateY(-8px);
+}
+
+.row3{
+    background-color:#1d7c8d ;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    padding-right: 10px;
+    justify-content: center;
+    transition: all .55s ease;
+    cursor: pointer;
+    display: inline-flex;
+}
+
+.row3:hover{
+    transform: translateY(-8px);
+}
