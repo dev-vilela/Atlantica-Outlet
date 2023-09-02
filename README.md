@@ -1,5 +1,5 @@
 <h4>Projeto desenvolvido com HTML5, CSS e JavaScript#</h4>
-<p>Portfólio criado com objetivo de mostrar um pouco sobre mim, minhas formações, cursos e habilidades.</p>
+<p>Projeto criado como meio de aprendizado.</p>
 
 <p>Falta realizar a parte da responsividade ainda.</p>
 
@@ -7,17 +7,15 @@
 Link para vizualizar projeto: <a href="https://dev-vilela.github.io/Atlantica-Outlet/" >Acessar portfólio</a>
 <br>
 <br>
-<h5>Página principal - Home</h5>
-<img src="./img/home.png">
+<h4>Modelos de Tênis.</h4>
+
+<h5>----------Air Force 1---------</h5>
+<img src="./img/pag1.png">
 <br>
-<h5>Página Sobre-Mim</h5>
-<img src="./img/sobre-mim.png">
+<h5>----------Air Force 2---------</h5>
+<img src="./img/pag2.png">
 <br>
-<h5>Página Minha Skills</h5>
-<img src="./img/skills.png">
-<br>
-<h5>Página Formações</h5>
-<img src="./img/formações.png">
-<br>
-<h5>Página projetos realizados</h5>
-<img src="./img/projetos.png">
+<h5>----------Air Force 3---------</h5>
+<img src="./img/pag3.png">
+
+
