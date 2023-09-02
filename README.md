@@ -4,7 +4,7 @@
 <p>Falta realizar a parte da responsividade ainda.</p>
 
 <br>
-Link para vizualizar projeto: <a href="https://dev-vilela.github.io/Atlantica-Outlet/" >Acessar portfólio</a>
+Link para vizualizar projeto: <a href="https://dev-vilela.github.io/Atlantica-Outlet/" >Acessar aqui</a>
 <br>
 <br>
 <h4>Modelos de Tênis.</h4>
